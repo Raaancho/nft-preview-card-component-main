@@ -1,0 +1,63 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+div img {
+    border-radius: 10px;
+}
+.card h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.card p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.details {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    color:hsl(215, 51%, 70%) ;
+}
+
+hr {
+    color: hsl(215, 51%, 70%);
+    
+}
+
+footer {
+    display: flex;    
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
